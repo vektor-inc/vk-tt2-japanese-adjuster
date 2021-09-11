@@ -4,6 +4,13 @@
   "version": "0.1.0",
   "main": "Gruntfile.js",
   "author": "YOUR NAME HERE",
+  "scripts": {
+    "composer:install:win": "wp-env run composer \"composer install\"",
+    "composer:install:mac": "wp-env run composer 'composer install'",
+    "phpunit:win": "wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/lightning-customize-plugin/phpunit.xml.dist --verbose\"",
+    "phpunit:mac": "wp-env run phpunit 'phpunit -c /var/www/html/wp-content/plugins/lightning-customize-plugin/phpunit.xml.dist --verbose'",
+    "phpunit": "wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/lightning-customize-plugin/phpunit.xml.dist --verbose\""
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-wp-i18n": "~0.5.0",

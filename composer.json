@@ -1,0 +1,16 @@
+{
+    "name": "vektor/lightning-g3-pro-unit",
+    "autoload": {
+        "psr-4": {
+            "Vektor\\": "src/"
+        }
+    },
+    "require-dev": {
+        "sirbrillig/phpcs-variable-analysis": "^2.10",
+        "wp-phpunit/wp-phpunit": "^5.4",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "require": {
+        "vektor-inc/vk-wp-unit-test-tools": "^0.10.0"
+    }
+}
