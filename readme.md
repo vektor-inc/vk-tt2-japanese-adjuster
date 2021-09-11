@@ -1,5 +1,7 @@
 # Lightning Customize Plugin
 
+https://github.com/vektor-inc/lightning-customize-plugin
+
 ## PHPUnit test
 
 ```
