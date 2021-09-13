@@ -21,7 +21,7 @@
  */
 
 // 独自のCSSファイル（assets/css/）を読み込む場合は true に変更してください.
-$my_lightning_custom_css = true;
+$my_lightning_custom_css = false;
 
 if ( $my_lightning_custom_css ) {
 	// 公開画面側のCSSの読み込み.
