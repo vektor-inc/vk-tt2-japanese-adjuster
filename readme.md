@@ -25,6 +25,30 @@ Ctrl + C で監視停止
 
 ---
 
+## wp-env（開発者向け）
+
+一応 .wp-env.json が置いてあります。
+
+Docker が動作している状態で、
+
+### wp-env をインストール
+
+```
+npm -g i @wordpress/env
+```
+
+### wp-env を起動
+
+ ```
+ wp-env start
+ ```
+
+詳しくは下記を参照ください。
+
+https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/
+
+---
+
 ## PHPUnit test（開発者向け）
 
 ```
