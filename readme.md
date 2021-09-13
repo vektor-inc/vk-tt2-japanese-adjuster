@@ -1,8 +1,21 @@
 # Lightning Customize Plugin
 
+WordPressテーマ Lightning を独自にカスタマイズするためのベースプラグインです。
+プラグイン名などは好みに応じて変更してください。
+
 https://github.com/vektor-inc/lightning-customize-plugin
 
 ※ 使い方について issue でのサポートは行っておりません。
+
+---
+
+## PHPを書いてカスタマイズする場合
+
+lightning-customize-plugin.php に記載ください。
+
+何を記載すればどう変わるかは以下に順次公開していきます。
+
+https://training.vektor-inc.co.jp/courses/lightning-customize/
 
 ---
 
