@@ -4,7 +4,7 @@ Donate link:
 Tags: comments, spam
 Requires at least: 5.6
 Tested up to: 5.8.1
-Stable tag: 0.2.1
+Stable tag: 0.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,4 +13,5 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-
+0.3.0
+* dist 設定追加
