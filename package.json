@@ -11,7 +11,7 @@
     "rimraf:css": "npx rimraf assets/_scss/*.css",
     "build:css": "run-s sass postcss:all rimraf:css",
     "watch": "nodemon -e scss --watch assets/_scss -x \"npm run build:css\"",
-    "copy": "cpx './**/*' ./dist/lightning-customize-plugin --include-empty-dirs",
+    "copy": "cpx './**/*' ./dist/lightning-customize-plugin --include-empty-dirs && cpx './.wp-env.json' ./dist/lightning-customize-plugin",
     "clean": "rimraf ./dist/lightning-customize-plugin/dist && rimraf ./dist/lightning-customize-plugin/node_modules",
     "dist": "run-s copy clean",
     "composer:install:win": "wp-env run composer \"composer install\"",
