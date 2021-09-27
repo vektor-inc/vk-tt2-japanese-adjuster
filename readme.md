@@ -71,3 +71,13 @@ npm run phpunit
 ```
 
 ※ プラグインのディレクトリ名・ファイル名を変更した場合は package.json 及び tests/bootstrap.php にディレクトリ名・ファイル名の記述があるので変更してください。
+
+## Dist （開発者向け）
+
+以下のコマンドで dist/lightning-customize-plugin/ に node_modules を覗いたファイルが複製されます。 
+
+```
+npm run dist
+```
+
+出力先のフォルダ名を変更したい場合は package.json の dist/lightning-customize-plugin/ の記述を変更してください。
