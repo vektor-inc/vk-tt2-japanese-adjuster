@@ -7,7 +7,7 @@
  * Author URI:
  * Text Domain:     lightning-customize-plugin
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.3.0
  * License:         GNU General Public License v2 or later
  * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
  *
