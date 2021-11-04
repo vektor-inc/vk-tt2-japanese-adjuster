@@ -27,7 +27,7 @@ if ( $my_lightning_custom_css ) {
 	// 公開画面側のCSSの読み込み.
 	add_action(
 		'wp_enqueue_scripts',
-		function() {
+		function () {
 			wp_enqueue_style(
 				'my-lightning-custom',
 				plugin_dir_url( __FILE__ ) . '/assets/css/style.css',
@@ -39,7 +39,7 @@ if ( $my_lightning_custom_css ) {
 	// 編集画面側のCSSの読み込み.
 	add_action(
 		'enqueue_block_editor_assets',
-		function() {
+		function () {
 			wp_enqueue_style(
 				'my-lightning-custom-editor',
 				plugin_dir_url( __FILE__ ) . '/assets/css/editor.css',
