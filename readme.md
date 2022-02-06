@@ -1,21 +1,10 @@
-# Lightning Customize Plugin
+# VK TT2 Japanese Adjuster
 
-WordPressテーマ Lightning を独自にカスタマイズするためのベースプラグインです。
-プラグイン名などは好みに応じて変更してください。
+WordPressテーマ Twentr Twenty Two を日本語環境に最適化するためのプラグインです。
 
-https://github.com/vektor-inc/lightning-customize-plugin
+https://github.com/vektor-inc/vk-tt2-japanese-adjuster
 
 ※ 使い方について issue でのサポートは行っておりません。
-
----
-
-## PHPを書いてカスタマイズする場合
-
-lightning-customize-plugin.php に記載ください。
-
-何を記載すればどう変わるかは以下に順次公開していきます。
-
-https://training.vektor-inc.co.jp/courses/lightning-customize/
 
 ---
 
@@ -74,10 +63,10 @@ npm run phpunit
 
 ## Dist （開発者向け）
 
-以下のコマンドで dist/lightning-customize-plugin/ に node_modules を覗いたファイルが複製されます。 
+以下のコマンドで dist/vk-tt2-japanese-adjuster/ に node_modules を覗いたファイルが複製されます。 
 
 ```
 npm run dist
 ```
 
-出力先のフォルダ名を変更したい場合は package.json の dist/lightning-customize-plugin/ の記述を変更してください。
+出力先のフォルダ名を変更したい場合は package.json の dist/vk-tt2-japanese-adjuster/ の記述を変更してください。

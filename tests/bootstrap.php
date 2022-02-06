@@ -44,7 +44,7 @@ function _manually_load_plugin() {
 	register_theme_directory( dirname( __FILE__ ) . '/themes' ); 
 	search_theme_directories();
 	switch_theme('lightning');
-	require dirname( dirname( __FILE__ ) ) . '/lightning-customize-plugin.php';
+	require dirname( dirname( __FILE__ ) ) . '/vk-tt2-japanese-adjuster.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 

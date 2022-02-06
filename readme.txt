@@ -1,4 +1,4 @@
-=== Lightning Customize Plugin ===
+=== VK TT2 Japanese Adjuster ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link:
 Tags: comments, spam
